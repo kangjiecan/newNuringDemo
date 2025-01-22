@@ -8,11 +8,12 @@ import {
   Modal,
   Pressable 
 } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import Icon from 'react-native-vector-icons/MaterialIcons'; 
+ // Note the correct casing
 import { StackScreenProps } from '@react-navigation/stack';
 
 type RootStackParamList = {
-  Home: undefined;
+  Home: undefined;  
   AddToDo: undefined;
   EditToDo: {
     editTask: string;
