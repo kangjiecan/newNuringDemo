@@ -1,0 +1,11 @@
+/* Define CSS variables (optional, can be hardcoded instead) */
+
+  
+  body {
+    color: rgb(var(--foreground-rgb)); /* White text */
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb)) /* Gradient from transparent to black */
+    );
+  }
